@@ -1,0 +1,25 @@
+filename = 'alexs_caves_delight-1.0.0-forge-1.20.1.jar'
+name = "alexs caves Delight ( Farmer's Delight & alexs caves Add-on)"
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.0'
+
+[download]
+hash = '72959764c431fb68d2bcd8db17af6c889571f3d138c52632a2fc23c1bdfc8f28fbc20f8b9768bb4ab1c434009093bab10695d3cda8a436779e3c7f6184b271db'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/xAxyIEYU/versions/dK6AGAz9/alexs_caves_delight-1.0.0-forge-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'xAxyIEYU'
+version = 'dK6AGAz9'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'R2OftAxM'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'U6GY0xp0'
+type = 'OPTIONAL'
