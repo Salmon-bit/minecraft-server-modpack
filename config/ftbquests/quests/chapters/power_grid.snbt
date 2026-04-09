@@ -1,0 +1,30 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "power_grid"
+	group: "5C00403D4EC758D9"
+	icon: "powergrid:potato_battery"
+	id: "2861699B88BFB8E4"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		id: "1AF13D5221EAB9B9"
+		invisible: true
+		rewards: [{
+			count: 8
+			id: "5BB6E3804ED5854E"
+			item: "minecraft:poisonous_potato"
+			type: "item"
+		}]
+		subtitle: "Still Alive"
+		tasks: [{
+			id: "2467FF1735D8C371"
+			item: "powergrid:potato_battery"
+			type: "item"
+		}]
+		title: "GLaDOS"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Power Grid"
+}

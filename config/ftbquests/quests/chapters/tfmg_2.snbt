@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tfmg_2"
+	group: "5C00403D4EC758D9"
+	icon: "tfmg:crude_oil_bucket"
+	id: "3E3B6283E24D8CF1"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "TFMG"
+}

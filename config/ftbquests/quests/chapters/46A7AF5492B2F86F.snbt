@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "46A7AF5492B2F86F"
+	group: ""
+	icon: "irons_spellbooks:common_ink"
+	id: "46A7AF5492B2F86F"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Пролог"
+}

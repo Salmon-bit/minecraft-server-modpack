@@ -1,0 +1,23 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "iron_spells_and_spell_books"
+	group: "414C031C203F3808"
+	icon: {
+		Count: 1
+		id: "irons_spellbooks:iron_spell_book"
+		tag: {
+			"irons_spellbooks:spell_container": {
+				data: [ ]
+				maxSpells: 6
+				mustEquip: 1b
+				spellWheel: 1b
+			}
+		}
+	}
+	id: "5E0E708110B70480"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Iron Spells and Spell Books"
+}

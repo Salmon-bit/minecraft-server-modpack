@@ -1,0 +1,203 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_2"
+	group: "5C00403D4EC758D9"
+	icon: "create:cogwheel"
+	id: "23A214B3D1A7E30A"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Сходите в &nшахту&r и накопайте как можно больше &nандезита&r и &nжелеза&r. Это пригодится вам в будущем."]
+			id: "680FD0A2B6EF9C99"
+			rewards: [
+				{
+					count: 64
+					id: "66E8FBA3F8386CEA"
+					item: "minecraft:andesite"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "76D23367ABF4EE7A"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Пришло время идти в шахту!"
+			tasks: [
+				{
+					count: 128L
+					id: "3BC7347753FBCCD6"
+					item: { Count: 128, id: "minecraft:andesite" }
+					type: "item"
+				}
+				{
+					count: 15L
+					id: "3DB07C9D253BEE42"
+					item: { Count: 15, id: "minecraft:iron_ingot" }
+					type: "item"
+				}
+			]
+			title: "Рудокоп"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["680FD0A2B6EF9C99"]
+			dependency_requirement: "one_completed"
+			description: ["Андезитовый сплав - один из самых важных предметов на первых порах. Содайте его из добытого вами андезита и железных кусочков!"]
+			id: "6CD79B9410CD884B"
+			rewards: [{
+				id: "146CBC7E9F47C621"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "МЕГА КРАФТИНГ!"
+			tasks: [{
+				count: 64L
+				id: "0871B6A8B481935C"
+				item: { Count: 64, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			title: "Начнём?"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6CD79B9410CD884B"]
+			description: ["Создайте несколько валов из андезитового сплава."]
+			id: "253FD35F8C925541"
+			rewards: [{
+				count: 16
+				id: "26E659E562E982B7"
+				item: "create:shaft"
+				type: "item"
+			}]
+			subtitle: "Крутимся"
+			tasks: [{
+				count: 32L
+				id: "13B7646FA5E8E08A"
+				item: { Count: 32, id: "create:shaft" }
+				type: "item"
+			}]
+			title: "Андезитовые Нити"
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6CD79B9410CD884B"]
+			description: ["Создайте несколько андезитовых корпусов, кликнув ПКМ по обтёсанному бревну."]
+			id: "495605B25C3F6B8B"
+			rewards: [{
+				count: 5
+				id: "1DD503EA100FBB42"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			subtitle: "Туц Туц Туц"
+			tasks: [{
+				id: "70062273DA81440C"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			title: "Андезит в кубе"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6CD79B9410CD884B"]
+			description: ["Создайте рукоятку из &mговна и палок&r! Это станет вашем первым источником энергии (или нет)"]
+			id: "40BE26B4AECDFBF0"
+			rewards: [{
+				id: "30C816AF79157B48"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "Тыгыдык"
+			tasks: [{
+				id: "7B941822DB35297F"
+				item: "create:hand_crank"
+				type: "item"
+			}]
+			title: "Словно белка в колесе"
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["253FD35F8C925541"]
+			description: ["Создайте шестерню и большую шестерню для передачи энергии!"]
+			id: "29D647408B1D49CD"
+			rewards: [
+				{
+					count: 3
+					id: "76B788582476578F"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "646693901CFB576F"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+			]
+			subtitle: "Только пальцы туда не совай"
+			tasks: [
+				{
+					id: "3CA9D65A263A6611"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "477AB03C3A2D874A"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+			]
+			title: "Завертлось, закрутилось"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["29D647408B1D49CD"]
+			description: ["Сздайте воядное колесо (я не помню крафт, псмотри в NEI, ты уже не маленький(-ая))"]
+			id: "7FAAD6B406099DF0"
+			rewards: [{
+				id: "26F249D1B2C100EA"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Льёт как из ведра"
+			tasks: [{
+				id: "1390FD2579D325C4"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			title: "Сила воды"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7FAAD6B406099DF0"]
+			description: ["Создайте большое водяное колесо из маленького из кучки досок. &oP.S. Водяные колёса можно перекрашивать, кликая на них досками из разного вида дерева ПКМ&r."]
+			id: "4DB99CB469719067"
+			rewards: [{
+				id: "35C5611568B6712B"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "От неё пахнет старотью, хотя она совсем новая"
+			tasks: [{
+				id: "62D6054307CC16D5"
+				item: "create:large_water_wheel"
+				type: "item"
+			}]
+			title: "Мега Сила Воды"
+			x: 10.0d
+			y: 0.0d
+		}
+	]
+	title: "Create база"
+}

@@ -1,0 +1,17 @@
+filename = 'crowns-1.20.1-2.1.1.jar'
+name = 'Create : CROWNS'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1', '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '2.1.1'
+
+[download]
+hash = 'e1e70c60938c95ab4aad949a375c2795ece29336a3f3acf2825f57ff7fe82eb6d68f7ad2a05ec18b3b10b175b95a901726fdaa9f16c197e18d16e9c64558d64f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/RCsqeVSp/versions/XIrrBY4t/crowns-1.20.1-2.1.1.jar'
+
+[update.modrinth]
+mod-id = 'RCsqeVSp'
+version = 'XIrrBY4t'

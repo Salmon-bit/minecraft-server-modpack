@@ -1,0 +1,17 @@
+.pg-ntive
+logs
+crash-reports
+local
+saves
+screenshots
+server-resource-packs
+shaderpacks
+tacz_backup
+texturepacks
+xaero
+emi.json
+icon.png
+usercache.json
+usernamecache.json
+tacz/tacz_default_gun
+tacz/tacz-pre.toml
