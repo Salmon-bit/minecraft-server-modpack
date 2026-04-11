@@ -1,0 +1,91 @@
+{
+  "block.crowns.heat_exchanger": "Теплообменник",
+  "block.crowns.steam_input": "Вход пара",
+  "block.crowns.steam_collector": "Сборщик пара",
+
+  "block.crowns.fuel_assembly": "ТВС (Тепловыделяющая сборка)",
+  "block.crowns.uranium_ore": "Урановая руда",
+  "block.crowns.deepslate_uranium_ore": "Глубинносланцевая урановая руда",
+  "block.crowns.turbine_stage": "Ступень турбины",
+  "block.crowns.turbine_stage_structure": "Конструкция ступени турбины",
+  "block.crowns.compressor": "Компрессор",
+
+  "item.crowns.uranium_ingot": "Слиток природного урана",
+  "item.crowns.natural_uranium_nugget": "Кусочек природного урана",
+  "item.crowns.depleted_uranium_ingot": "Слиток обеднённого урана",
+  "item.crowns.depleted_uranium_nugget": "Кусочек обеднённого урана",
+  "item.crowns.enriched_uranium_ingot": "Слиток обогащённого урана",
+  "item.crowns.enriched_uranium_nugget": "Кусочек обогащённого урана",
+
+  "item.crowns.corium_bucket": "Ведро кориума",
+  "item.crowns.uranium_hexafluoride_bucket": "Ведро гексафторида урана",
+  "item.crowns.fuel_rod": "ТВЭЛ (Тепловыделяющий элемент)",
+
+  "item.crowns.raw_uranium": "Необработанный уран",
+
+  "fluid.crowns.corium": "Кориум",
+  "fluid.crowns.uranium_hexafluoride": "Гексафторид урана",
+
+  "itemGroup.crowns.nuclear": "CROWNS",
+
+  "crowns.ponder.nuclear_basics.header": "Ядерные реакторы",
+  "crowns.ponder.nuclear_basics.text_1": "Ядерное топливо естественным образом производит быстрые нейтроны",
+  "crowns.ponder.nuclear_basics.text_2": "Быстрые нейтроны редко вызывают деление",
+  "crowns.ponder.nuclear_basics.text_3": "Добавьте замедлитель, чтобы превратить их в тепловые нейтроны, которые могут вызвать деление и произвести больше нейтронов",
+  "crowns.ponder.nuclear_basics.text_4": "Короче говоря, замедлитель разогревает реактор",
+  "crowns.ponder.nuclear_basics.text_5": "Уголь имеет 70%% эффективности",
+  "crowns.ponder.nuclear_basics.text_6": "Вода имеет 50%% эффективности",
+  "crowns.ponder.nuclear_basics.text_7": "Золото оказывает противоположный эффект и может использоваться как управляющий стержень. Оно блокирует всё излучение",
+  "crowns.ponder.nuclear_basics.text_8": "Когда достаточное количество топливных блоков находится в одном месте с замедлителем, реакция резко возрастает",
+  "crowns.ponder.nuclear_basics.text_9": "По мере продолжения деления тепловыделяющие сборки начинают нагреваться...",
+  "crowns.ponder.nuclear_basics.text_10": "Без надлежащего охлаждения или управляющих стержней температура достигает критического уровня.",
+  "crowns.ponder.nuclear_basics.text_11": "Топливо катастрофически разрушается и плавится в кориум.",
+
+  "crowns.ponder.reactor_layout.header": "Компоновка реактора",
+  "crowns.ponder.reactor_layout.text_1": "Как и все горячие блоки, ядерное топливо можно использовать для нагрева воды.",
+  "crowns.ponder.reactor_layout.text_2": "Рекомендуется строить реакторы концентрическими кругами.",
+  "crowns.ponder.reactor_layout.text_3": "Теплообменник можно разместить внутри",
+  "crowns.ponder.reactor_layout.text_4": "Управляющий стержень можно разместить рядом с ними",
+  "crowns.ponder.reactor_layout.text_5": "Шерсть изолирует реактор и повышает эффективность",
+  "crowns.ponder.reactor_layout.text_6": "Чем выше реактор, тем больше времени у воды на кипение; также незначительно увеличивает мощность",
+
+  "crowns.ponder.turbine.header": "Турбины",
+  "crowns.ponder.turbine.text_1": "Подавайте пар во входы пара",
+  "crowns.ponder.turbine.text_2": "Если вода недостаточно горячая, турбина не будет вращаться",
+  "crowns.ponder.turbine.text_3": "Когда вода закипит и в ней появится пар, турбина начнёт вращаться",
+  "crowns.ponder.turbine.text_4": "Цвет показывает качество пара",
+  "crowns.ponder.turbine.text_5": "От чистого пара (x = 100%%)",
+  "crowns.ponder.turbine.text_6": "До чистой жидкой воды (x = 0%%)",
+
+  "crowns.ponder.compressor.header": "Компрессор",
+  "crowns.ponder.compressor.text_1": "Компрессор повышает давление входящего потока",
+  "crowns.ponder.compressor.text_2": "В отличие от турбины, повышение давления зависит от скорости",
+  "crowns.ponder.compressor.text_3": "При 0 об/мин: %s\nПри 64 об/мин: %s\nПри 128 об/мин: %s\nПри 256 об/мин: %s",
+  "crowns.ponder.compressor.text_4": "Вода под высоким давлением закипает при более высокой температуре",
+
+  "crowns.display_source.radiation_source.activity": "Радиация: ",
+  "crowns.display_source.radiation_source.k_eff": "Эффективный коэффициент: ",
+  "crowns.display_source.radiation_source": "Источник радиации",
+  "crowns.display_source.temperature": "Температура",
+  "crowns.display_source.full_stack": "Температура сборки ТВС",
+  "crowns.units.pressure.symbol.pascals": "Па",
+  "crowns.units.pressure.symbol.bar": "бар",
+  "crowns.units.pressure.symbol.atmospheres": "атм",
+  "crowns.units.pressure.symbol.psi": "psi",
+  "crowns.units.temperature.symbol.kelvin": "К",
+  "crowns.units.temperature.symbol.celsius": "°C",
+  "crowns.units.temperature.symbol.fahrenheit": "°F",
+
+  "crowns.units.radiation_flux.symbol.mega_becquerels": "МБк",
+  "crowns.units.radiation_flux.symbol.curies": "Ки",
+  "crowns.units.radiation_flux.symbol.gray_per_seconds": "Гр/с",
+  "crowns.units.radiation_flux.symbol.rad_per_seconds": "рад/с",
+  "crowns.units.radiation_flux.symbol.sievert_per_seconds": "Зв/с",
+
+  "nucleus.crowns.u235": "Уран-235",
+  "nucleus.crowns.u238": "Уран-238",
+  "nucleus.crowns.p239": "Плутоний-239",
+
+  "death.attack.crowns.high_temperature": "%s заживо сварился",
+  "death.attack.crowns.low_temperature": "%s превратился в ледышку"
+}
