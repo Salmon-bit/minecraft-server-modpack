@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tinkers_construct"
+	group: "5C00403D4EC758D9"
+	icon: "tconstruct:materials_and_you"
+	id: "130E955C4C7AD53A"
+	order_index: 5
+	quest_links: [ ]
+	quests: [ ]
+	title: "Tinker`s construct"
+}

@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "blood_magic"
+	group: "414C031C203F3808"
+	icon: "bloodmagic:altar"
+	id: "05BA2CD4D5DBF5B5"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "Blood Magic"
+}
